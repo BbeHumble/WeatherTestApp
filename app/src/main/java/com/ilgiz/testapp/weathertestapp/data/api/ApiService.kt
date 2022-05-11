@@ -1,8 +1,6 @@
 package com.ilgiz.testapp.weathertestapp.data.api
 
 import com.ilgiz.testapp.weathertestapp.data.model.WeatherResponseBody
-import retrofit2.http.Body
-import retrofit2.http.POST
 import retrofit2.http.GET
 import retrofit2.http.Query
 
