@@ -11,6 +11,7 @@ import dagger.hilt.android.AndroidEntryPoint
 class MainActivity : AppCompatActivity(R.layout.ac_container) {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        //start for single activity pattern
         val mFragment: Fragment?
         mFragment = WeatherFragment()
         val fragmentManager = supportFragmentManager

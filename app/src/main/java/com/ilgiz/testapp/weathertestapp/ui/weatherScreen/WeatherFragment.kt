@@ -76,11 +76,6 @@ class WeatherFragment : Fragment(R.layout.fr_weather) {
         viewBinding?.weatherList?.adapter = adapter
     }
 
-    override fun onDestroyView() {
-        super.onDestroyView()
-        viewBinding = null
-    }
-
     override fun onResume() {
         super.onResume()
         viewModel.weathersItem.observe(requireActivity(), {
@@ -91,6 +86,12 @@ class WeatherFragment : Fragment(R.layout.fr_weather) {
         })
     }
 
+    override fun onDestroyView() {
+        super.onDestroyView()
+        viewBinding = null
+    }
+
+    //init data
     val cities: List<City> =
         listOf(
             City("České Budějovice", "48.97378881915517", "14.476120512906416"),
