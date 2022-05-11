@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">WeatherTestApp</string>
+    <string name="weather">Weather</string>
+    <string name="city">City</string>
+    <string name="count_of_days">Count of days</string>
+    <string name="default_value_days">3</string>
+    <string name="error_text">Enter number from 1 to 12</string>
+    <string-array name="cities">
+        <item>České Budějovice</item>
+        <item>New York</item>
+        <item>Sydney</item>
+    </string-array>
+</resources>
